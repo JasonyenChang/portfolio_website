@@ -14,21 +14,21 @@ const projectList = [
         description: "Engineerforce is a project management platform featuring spreadsheet-style task structuring, project breakdown, cost estimation, task assignment, and progress tracking. It includes AI-powered WBS generation and AI-based effort and risk estimation to enhance project planning efficiency and decision-making.",
         image: Engineerforce,
         skills: ["React", "JavaScript", "CSS", "Cypress", "Django", "OpenAI", "Gemini"],
-        url: "https://app.engineerforce.io/accounts/login/"
+        url: "https://drive.google.com/file/d/1fJE8SAE_lUCMrygbqwKjtkkYQgY4KNoF/view?usp=sharing"
     },
     {
         name: "Hosono AI",
         description: "Hosono AI is a domain knowledge Q&A platform powered by LLM retrieval. It aggregates the public speeches and political commentary of Japanese Diet member Goshi Hosono, and uses Dify to manage sources such as YouTube, Voicy, and note. Users can ask political questions on the platform, and the AI assistant responds in a style aligned with Hosono’s viewpoints by retrieving relevant context from a vector-based knowledge base.",
         image: HosonoAI,
         skills: ["React", "Dify", "Python"],
-        url: "https://app.engineerforce.io/accounts/login/"
+        url: "https://drive.google.com/file/d/1QCBucjkqBO90ft6wNcl3A5N3KaZ6jyRe/view?usp=sharing"
     },
     {
         name: "Google Pixel",
         description: "The Google Pixel Sales Training Platform is an internal e-learning system used to deliver product knowledge and sales training for retail teams. Our team was responsible for developing the course and video management modules, including course creation, video upload/editing, training content configuration, and learning flow setup to enable standardized internal training across sales channels.",
         image: GooglePixel1,
         skills: ["NextJS", "TailwindCSS"],
-        url: "https://app.engineerforce.io/accounts/login/"
+        url: "https://drive.google.com/file/d/1todzItXeqo12cneQjql2N07IIAE6yv_Q/view?usp=sharing"
     },
     {
         name: "Cost Living Around You",

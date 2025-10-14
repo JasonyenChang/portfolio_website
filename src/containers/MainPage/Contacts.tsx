@@ -6,7 +6,7 @@ const Contacts = () => {
         <div className="contacts-body">
             <Contact title="Email" content="jasonchang.tw.work@gmail.com" />
             <Contact title="LinkedIn" content="https://www.linkedin.com/in/jasonchang2022/" />
-            <Contact title="Gitlab" content="https://gitlab.com/jasonyen" />
+            <Contact title="Github" content="https://github.com/JasonyenChang" />
             <Contact title="Phone" content="886934087605" />
         </div>
     );
