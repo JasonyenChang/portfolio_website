@@ -9,7 +9,7 @@ const About = () => {
                 <span className="title">Get to know me</span>
                 <div className="description">
                     <p>
-                        I’m a Full-Stack Engineer who builds reliable, scalable web applications. I enjoy solving real problems with clean architecture, thoughtful design, and meaningful user experiences. Let’s build something great together.
+                        Hi, my name is Jason, I’m a Full-Stack Engineer who builds reliable, scalable web applications. I enjoy solving real problems with clean architecture, thoughtful design, and meaningful user experiences. Let’s build something great together.
                     </p>
                 </div>
             </div>

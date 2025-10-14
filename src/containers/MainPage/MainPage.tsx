@@ -53,10 +53,7 @@ const MainPage = () => {
     return (
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
             <div className="topnav" id="myTopnav">
-                <div style={{ float: "left" }}>
-                    <img src={IMG} />
-                    <span>Jason Chang</span>
-                </div>
+                <img src={IMG} />
                 {
                     !hideMenu
                         ? <>
