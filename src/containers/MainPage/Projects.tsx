@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from '@/components/Project/Project';
 import Engineerforce from "@/statics/images/engineerforce.png";
+import HosonoAI from "@/statics/images/hosonoai.png";
+import GooglePixel1 from "@/statics/images/googlepixel1.png";
 import CostLiving from "@/statics/images/cost-living.png";
 import ABC from "@/statics/images/abc.png";
 import Wisdom from "@/statics/images/wisdom.png";
@@ -9,9 +11,23 @@ import "./style.css";
 const projectList = [
     {
         name: "Engineerforce",
-        description: "This is a SaaS platform specifically designed for the IT industry to simplify and enhance the accuracy of man-hour estimation. By utilizing Engineerforce, users can move beyond Excel files and focus on more pressing matters.",
+        description: "Engineerforce is a project management platform featuring spreadsheet-style task structuring, project breakdown, cost estimation, task assignment, and progress tracking. It includes AI-powered WBS generation and AI-based effort and risk estimation to enhance project planning efficiency and decision-making.",
         image: Engineerforce,
-        skills: ["React", "JavaScript", "CSS", "Cypress", "Django Basics"],
+        skills: ["React", "JavaScript", "CSS", "Cypress", "Django", "OpenAI", "Gemini"],
+        url: "https://app.engineerforce.io/accounts/login/"
+    },
+    {
+        name: "Hosono AI",
+        description: "Hosono AI is a domain knowledge Q&A platform powered by LLM retrieval. It aggregates the public speeches and political commentary of Japanese Diet member Goshi Hosono, and uses Dify to manage sources such as YouTube, Voicy, and note. Users can ask political questions on the platform, and the AI assistant responds in a style aligned with Hosono’s viewpoints by retrieving relevant context from a vector-based knowledge base.",
+        image: HosonoAI,
+        skills: ["React", "Dify", "Python"],
+        url: "https://app.engineerforce.io/accounts/login/"
+    },
+    {
+        name: "Google Pixel",
+        description: "The Google Pixel Sales Training Platform is an internal e-learning system used to deliver product knowledge and sales training for retail teams. Our team was responsible for developing the course and video management modules, including course creation, video upload/editing, training content configuration, and learning flow setup to enable standardized internal training across sales channels.",
+        image: GooglePixel1,
+        skills: ["NextJS", "TailwindCSS"],
         url: "https://app.engineerforce.io/accounts/login/"
     },
     {
