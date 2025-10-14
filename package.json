@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist/*",
-    "start": "webpack-dev-server --mode development --hot --config webpack.config.js",
-    "dist": "npm run clean && webpack --mode production --config webpack.config.js",
-    "predeploy": "npm run dist",
+    "clean": "rimraf dist",
+    "start": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "Jasonyen Chang",
