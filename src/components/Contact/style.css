@@ -1,0 +1,21 @@
+.contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.contact-title {
+    font-weight: bold;
+}
+
+.contact-content {
+    color: #666666;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-item {
+        font-size: 12px;
+    }
+}

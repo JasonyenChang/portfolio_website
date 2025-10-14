@@ -1,0 +1,11 @@
+.skill {
+    padding: 0 20px 0 20px;
+    background: #E6E6E6;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
