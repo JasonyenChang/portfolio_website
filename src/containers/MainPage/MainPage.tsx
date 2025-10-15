@@ -1,6 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { History, LocationState } from 'history';
-import { Button } from 'antd';
 import IMG from "@/statics/images/avatar.jpg";
 import About from './About';
 import Projects from './Projects';

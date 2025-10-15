@@ -120,6 +120,18 @@
   width: 100%;
 }
 
+.main .about .about-body .content img {
+  width: 25px;
+  height: 25px;
+}
+
+.main .about .about-body .icon {
+  display: grid;
+  gap: 10px;
+  grid-auto-flow: column;
+  grid-auto-columns: 60px 60px;
+}
+
 .main .about .about-body .content .description {
   padding: 20px 0 20px 0;
   color: #666666;

@@ -2,8 +2,8 @@ import React from 'react';
 import Project from '@/components/Project/Project';
 import Engineerforce from "@/statics/images/engineerforce.png";
 import HosonoAI from "@/statics/images/hosonoai.png";
-import GooglePixel1 from "@/statics/images/googlepixel1.png";
-import CostLiving from "@/statics/images/cost-living.png";
+import GooglePixel from "@/statics/images/googlepixel.png";
+import Cost from "@/statics/images/cost.png";
 import ABC from "@/statics/images/abc.png";
 import Wisdom from "@/statics/images/wisdom.png";
 import "./style.css";
@@ -26,20 +26,20 @@ const projectList = [
     {
         name: "Google Pixel",
         description: "The Google Pixel Sales Training Platform is an internal e-learning system used to deliver product knowledge and sales training for retail teams. Our team was responsible for developing the course and video management modules, including course creation, video upload/editing, training content configuration, and learning flow setup to enable standardized internal training across sales channels.",
-        image: GooglePixel1,
+        image: GooglePixel,
         skills: ["NextJS", "TailwindCSS"],
         url: "https://drive.google.com/file/d/1todzItXeqo12cneQjql2N07IIAE6yv_Q/view?usp=sharing"
     },
     {
         name: "Cost Living Around You",
-        description: "The system scrapes daily cost-of-living data from a website and presents a summary of the information to users.",
-        image: CostLiving,
+        description: "Built a system that automatically crawls and aggregates daily cost-of-living data, processes it, and visualizes trends for users in a clear and accessible dashboard.",
+        image: Cost,
         skills: ["React", "NodeJS", "JavaScript", "CSS", "TypeScript", "Docker", "AWS EC2", "AWS ECR", "SQL Basics"],
         url: "http://jasonchang.website:8080/#/costliving"
     },
     {
         name: "Project ABC",
-        description: "The system displays KPI values using different types of charts, such as pie charts and stacked charts.",
+        description: "Project ABC is an internal procurement KPI analytics system developed for Wistron. It provides visibility into purchasing performance across functions, departments, and individual buyers by calculating contribution values based on rebate, PPV (purchase price variance), and free sample savings. The system aggregates annual KPI targets set by the procurement division and visualizes performance tracking to support decision-making and supplier negotiation strategies.",
         image: ABC,
         skills: ["React", "JavaScript", "CSS", "Bizchart"],
         url: ""

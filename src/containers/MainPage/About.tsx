@@ -1,5 +1,6 @@
 import React from 'react';
 import Crumb from '@/components/Crumb/Crumb';
+import LinkedIn from "@/statics/images/linkedin_icon.png";
 
 const skillSet = ["React", "NextJS", "CSS", "TailwindCSS", "TypeScript", "Django", "Docker", "AWS EC2", "AWS ECR", "CI/CD", "Git", "SQL Basics", "NodeJS"];
 const About = () => {
@@ -7,6 +8,10 @@ const About = () => {
         <div className="about-body">
             <div className="content">
                 <span className="title">Get to know me</span>
+                <div className="icon">
+                    <img src={LinkedIn} />
+                    <img src={LinkedIn} />
+                </div>
                 <div className="description">
                     <p>
                         Hi, my name is Jason, I’m a Full-Stack Engineer who builds reliable, scalable web applications. I enjoy solving real problems with clean architecture, thoughtful design, and meaningful user experiences. Let’s build something great together.
