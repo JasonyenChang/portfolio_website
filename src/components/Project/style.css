@@ -13,12 +13,13 @@
 
 .project-body img {
     width: 100%;
-    height: 100%;
-    max-width: 800px;
-    max-height: 550px;
     border: 1px solid #bcbaba;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.project-body img:hover {
+    border: 3px solid #f0d62e;
 }
 
 .project-body .title {
