@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import IMG from "@/statics/images/avatar.jpg";
 import About from './About';
 import Projects from './Projects';
-import Contacts from './Contacts';
 import Worker from "@/statics/images/worker.png";
 import "./style.css";
 
@@ -79,7 +78,6 @@ const MainPage = () => {
                     <div className="img-div"><img src={Worker} /></div>
                 </div>
                 <div id="project" className="project"><Projects /></div>
-                <div id="contact" className="contact"><Contacts /></div>
             </div>
         </div>
     )
