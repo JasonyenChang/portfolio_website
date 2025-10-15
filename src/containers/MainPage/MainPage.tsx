@@ -56,13 +56,11 @@ const MainPage = () => {
                         ? <>
                             <span onClick={handleClickAbout}>ABOUT</span>
                             <span onClick={handleClickProject}>PROJECT</span>
-                            <span onClick={handleClickContact}>CONTACT</span>
                             <span className="icon" onClick={handleClickMenu}>
                                 <i className="fa fa-bars"></i>
                             </span>
                         </>
                         : <>
-                            <span onClick={handleClickContact}>CONTACT</span>
                             <span onClick={handleClickProject}>PROJECT</span>
                             <span onClick={handleClickAbout}>ABOUT</span>
                             <span className="icon" onClick={handleClickMenu}>
