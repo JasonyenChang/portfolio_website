@@ -12,7 +12,7 @@ interface IProject {
 
 const Project = (props: IProject) => {
     const handleNavigateTo = () => {
-        window.open(props.url, '_blank');
+        if (props.url !== "") window.open(props.url, '_blank');
     }
     return (
         <div className="project-body">

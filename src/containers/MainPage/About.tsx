@@ -32,7 +32,7 @@ const About = () => {
                     <img
                         src={Phone}
                     />
-                    <span>886+0934087605</span>
+                    <span>886+934087605</span>
                 </div>
                 <div className="contact_info">
                     <img
