@@ -24,7 +24,7 @@ const Project = (props: IProject) => {
                     {props.isPersonalProject && <div className="personal">Personal Project</div>}
                 </div>
                 <div className="description">{props.description}</div>
-                <span className="title">Skills Used</span>
+                <span className="skill-title">Skills Used</span>
                 <div className="skills">
                     {
                         props.skills.map((skill, index) => (
