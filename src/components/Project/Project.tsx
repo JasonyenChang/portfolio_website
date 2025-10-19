@@ -7,7 +7,8 @@ interface IProject {
     description: string,
     image: string,
     skills: string[],
-    url: string
+    url: string,
+    isPersonalProject: boolean
 }
 
 const Project = (props: IProject) => {
@@ -18,7 +19,10 @@ const Project = (props: IProject) => {
         <div className="project-body">
             <img src={props.image} onClick={handleNavigateTo} />
             <div>
-                <span className="title">{props.name}</span>
+                <div className="title">
+                    <span>{props.name}</span>
+                    {props.isPersonalProject && <div className="personal">Personal Project</div>}
+                </div>
                 <div className="description">{props.description}</div>
                 <span className="title">Skills Used</span>
                 <div className="skills">
