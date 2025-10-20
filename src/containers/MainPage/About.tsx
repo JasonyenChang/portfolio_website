@@ -5,7 +5,7 @@ import Github from "@/statics/images/github_icon.png";
 import Phone from "@/statics/images/phone_icon.png";
 import Email from "@/statics/images/email_icon.png";
 
-const skillSet = ["React", "NextJS", "CSS", "TailwindCSS", "TypeScript", "Django", "Docker", "AWS EC2", "AWS ECR", "CI/CD", "Git", "SQL Basics", "NodeJS"];
+const skillSet = ["React", "NextJS", "CSS", "TailwindCSS", "TypeScript", "Django", "Docker", "AWS RDS", "AWS EC2", "AWS ECR", "CI/CD", "Git", "SQL", "NodeJS"];
 const About = () => {
     return (
         <div className="about-body">
