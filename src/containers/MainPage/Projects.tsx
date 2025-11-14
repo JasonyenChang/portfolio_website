@@ -6,9 +6,18 @@ import GooglePixel from "@/statics/images/googlepixel.png";
 import Cost from "@/statics/images/cost.png";
 import ABC from "@/statics/images/abc.png";
 import Wisdom from "@/statics/images/wisdom.png";
+import MedicalChatBot from "@/statics/images/medical_chatbot.png";
 import "./style.css";
 
 const projectList = [
+    {
+        name: "Medical QA RAG Chatbot",
+        description: "Built a LangChain-based RAG architecture that vectorizes medical texts and retrieves relevant information using Chroma, enabling OpenAI LLM to generate accurate medical responses. The backend supports streaming responses, while the frontend provides real-time, character-by-character answer rendering with a smooth user experience.",
+        image: MedicalChatBot,
+        skills: ["Vue", "Django", "LangChain", "RAG", "OpenAI"],
+        url: "https://drive.google.com/file/d/1LSV5GzUIWw1i6sh4fBh5cmhM4EVPemmV/view?usp=sharing",
+        isPersonalProject: true
+    },
     {
         name: "Engineerforce",
         description: "Engineerforce is a project management platform featuring spreadsheet-style task structuring, project breakdown, cost estimation, task assignment, and progress tracking. It includes AI-powered WBS generation and AI-based effort and risk estimation to enhance project planning efficiency and decision-making.",

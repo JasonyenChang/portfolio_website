@@ -52,3 +52,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.project-body img {
+    max-width: 561px;
+    max-height: 336px;
+}
