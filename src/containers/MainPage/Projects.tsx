@@ -7,9 +7,18 @@ import Cost from "@/statics/images/cost.png";
 import ABC from "@/statics/images/abc.png";
 import Wisdom from "@/statics/images/wisdom.png";
 import MedicalChatBot from "@/statics/images/medical_chatbot.png";
+import VoiceChatBot from "@/statics/images/ai_voice_bot.png";
 import "./style.css";
 
 const projectList = [
+    {
+        name: "Real Time AI Voice Chatbot",
+        description: "A simple application demonstrating real-time bi-directional voice conversation between a human and an AI assistant.",
+        image: VoiceChatBot,
+        skills: ["NodeJS", "React", "LiveKit"],
+        url: "https://drive.google.com/file/d/1ZBQ1jOFNb39_aajAlEWW-1uevx2Y6r3s/view?usp=sharin",
+        isPersonalProject: true
+    },
     {
         name: "Medical QA RAG Chatbot",
         description: "Built a LangChain-based RAG architecture that vectorizes medical texts and retrieves relevant information using Chroma, enabling OpenAI LLM to generate accurate medical responses. The backend supports streaming responses, while the frontend provides real-time, character-by-character answer rendering with a smooth user experience.",
