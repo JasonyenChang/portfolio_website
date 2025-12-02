@@ -32,7 +32,7 @@ const projectList = [
         description: "Engineerforce is a project management platform featuring spreadsheet-style task structuring, project breakdown, cost estimation, task assignment, and progress tracking. It includes AI-powered WBS generation and AI-based effort and risk estimation to enhance project planning efficiency and decision-making.",
         image: Engineerforce,
         skills: ["React", "JavaScript", "CSS", "Cypress", "Django", "OpenAI", "Gemini"],
-        url: "https://drive.google.com/file/d/1fJE8SAE_lUCMrygbqwKjtkkYQgY4KNoF/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1xgHI8QIh8MIEArYs89K2zp49zZUIO-f0/view?usp=sharing",
         isPersonalProject: false
     },
     {
